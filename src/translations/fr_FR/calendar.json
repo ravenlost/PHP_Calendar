@@ -1,0 +1,45 @@
+{
+  "": {
+    "domain": "calendar",
+    "language": "fr_FR",
+    "nplurals": "1",
+    "plural": "(n > 1)"
+  },
+   
+  "Sun": "Dim",
+  "Mon": "Lun",
+  "Tue": "Mar",
+  "Wed": "Mer",
+  "Thu": "Jeu",
+  "Fri": "Ven",
+  "Sam": "Sat",
+  
+  "Sunday": "Dimanche",
+  "Monday": "Lundi",
+  "Tuesday": "Mardi",
+  "Wednesday": "Mercredi",
+  "Thursday": "Jeudi",
+  "Friday": "Vendredi",
+  "Saturday": "Samedi",
+     
+  "January": "Janvier",
+  "February": "Février",
+  "March": "Mars",
+  "April": "Avril",
+  "May": "Mai",
+  "June": "Juin",
+  "July": "Juillet",
+  "August": "Août",
+  "September": "Septembre",
+  "October": "Octobre",
+  "November": "Novembre",
+  "December": "Décembre",
+    
+  "Previous": "Précédent",
+  "Next": "Suivant",
+  "Today": "Aujourd'hui",
+  "Date marked in red": "Journée marquée en rouge",  
+  "Date circled": "Journée encerclée",
+  "Date selected": "Journée sélectionnée",
+  "Date already declared": "Journée déjà déclarée"
+}
