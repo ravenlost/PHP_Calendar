@@ -20,7 +20,7 @@
 **Requirements**
 <ul>
 	<li><a href="https://getbootstrap.com/">Boostrap</a></li>
-	<li><a href="https://jquery.com/">jQuery</a>: only if you use the javascripts from the <a href="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/CalendarUsageExample.php">CalendarUsageExample.php</a></li>
+	<li><a href="https://jquery.com/">jQuery</a>: only if you use the javascript from the <a href="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/CalendarUsageExample.php">CalendarUsageExample.php</a></li>
 	<li><a href="https://github.com/ravenlost/PHP_Locale">\CorbeauPerdu\i18n\Locale</a></li>
 </ul>
 
