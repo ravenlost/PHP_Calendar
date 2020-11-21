@@ -36,5 +36,5 @@
 <p>The calendar is loaded from getting month and year in the URL querystring:</p>
 <img src="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/demo1-querystring.png"/>
 
-<p>The calendar is loaded from an Ajax call that passes along the desired month and year:</p>
-<img src="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/demo2-ajax.png"/>
+<p>The calendar is loaded from an Ajax call that passes along the desired month and year, hidding other month, week starts on Mondays and finally, in french:</p>
+<img src="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/demo2-ajax-french-hideothermonth.png"/>
