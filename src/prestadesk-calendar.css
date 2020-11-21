@@ -1,0 +1,100 @@
+
+
+#calendar {
+  padding: 0px;
+  border: 1px solid #d3d7cf;
+}
+
+/*************************** Top Nav ***************************/
+#calendar .calendar_topnav {
+  margin: 0px;
+  font-size: small;
+  font-weight: bold;
+  color: #4a536e;
+  background-color: #f9f9f9;  
+  padding: 5px 10px 10px; /* top leftright bottom*/  
+}
+
+#calendar .calendar_topnav a:not(#calendar_todaylnk) {
+  color: #4a536e;
+}
+
+#calendar .calendar_topnav .calendar_todayTopnav {
+  font-weight: normal;
+}
+
+#calendar .calendar_topnav .calendar_title {  
+}
+
+/*************************** Weekdays labels ********************/
+#calendar .calendar_weekdays {
+  margin: 0px;
+  padding: 14px 0px; /* topbottom leftright */  
+  font-size: small;
+  font-weight: bold;
+  color: #4a536e;
+  background-color: #fff;
+  text-align: center;
+}
+
+/*************************** Footer ******************************/
+#calendar .calendar_footer {
+  margin: 0px;
+  padding: 10px 0px; /* topbottom leftright */
+  font-size: small;
+  background-color: #fff;
+}
+
+/*************************** Content ******************************/
+#calendar .calendar_content {
+  margin: 0px 0px; /* topbottom leftright */
+  background-color: #fff;
+  text-align: center; /* this also centers all date within each date cells */
+}
+
+#calendar .calendar_cell {
+  background-color: #f9f9f9;
+  margin: 1px 1px; /* topbottom leftright */
+  cursor: pointer;
+  font-size: 90%;
+    
+  /* fix height of cell with top and bottom paddings, 7 being the number of cells in a row (7 days); 
+     I don't understand it, but seems to make the trick to make almost perfect squares! */
+  padding-top: calc(25% / 7);
+  padding-bottom: calc(25% / 7);
+}
+
+/* mouse over date cells*/
+#calendar .calendar_cell:hover:not(.calendar_otherMonthHidden) {
+  background: #fbfcfd;
+}
+
+/*************************** date cell types styling **************/
+#calendar .calendar_today {
+  color: red !important;
+}
+
+#calendar .calendar_weekend {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#calendar .calendar_circle {
+  height:0;
+  text-align:center;
+  padding:25% 25%;
+  border-radius:50%;
+  background:#dbeaec !important;
+}
+
+#calendar .calendar_selected:not(.calendar_otherMonthHidden) {
+  background: #17a2b8 !important; /* force with !important otherwise will change on mouseover!*/
+  font-weight: bold;
+}
+
+#calendar .calendar_otherMonth{
+  color: rgba(0, 0, 0, 0.3); /* black, 30% opacity */
+}
+
+#calendar .calendar_otherMonthHidden{
+  cursor: default !important;
+}
