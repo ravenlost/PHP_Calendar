@@ -56,7 +56,7 @@ class Calendar
    * @param bool $showOtherMonths Whether to display dates in other months at the start or end of the current month (default: true)
    * @param bool $forceSixRows Whether to show a 6th row in the calendar, EVEN if that hole row belongs to the next month (default: false)
    *                           Only applicable with $showOtherMonths = true   
-   * @param string $anchor calendar href anchor to reposition page upon calendar reload (default: '#calendar')
+   * @param string $anchor calendar href anchor to reposition page upon calendar reload (default: 'calendar')
    *                       this'll be mainly useful if the loadCalendar() JS loads the calendar from an Ajax call;
    *                       if loadCalendar() simply reloads the page with querystring params for instance with window.location.href + '?m=month&y=year'
    *                       then need to set the '#anchor' in that js url href

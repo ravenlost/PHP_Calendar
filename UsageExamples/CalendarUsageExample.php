@@ -25,7 +25,7 @@ $mycal = new Calendar($locale, $startWeekOnMonday, $showOtherMonths, $forceSixRo
 <head>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="prestadesk-calendar.css" rel="stylesheet" type="text/css">
+<link href="calendar.css" rel="stylesheet" type="text/css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -37,7 +37,7 @@ $mycal = new Calendar($locale, $startWeekOnMonday, $showOtherMonths, $forceSixRo
  * @param int year
  */
 function loadCalendar(month, year) {
-	window.location.href = location.protocol + '//' + location.host + location.pathname+ "?m=" + month + "&y=" + year + '#calendar';
+  window.location.href = location.protocol + '//' + location.host + location.pathname+ "?m=" + month + "&y=" + year + '#calendar';
 }
 
 /**
@@ -46,7 +46,7 @@ function loadCalendar(month, year) {
  * @param string date cell to toggle with and get date from
  */
 function setSelectedDate(date) {
-	
+  
   // highlight or unhighlight date cell
   $('#' + date).toggleClass('calendar_selected');
 
@@ -75,29 +75,29 @@ function setSelectedDate(date) {
 <body>
 
 <div class="container">
-	
-	<h1>My Calendar</h1>
-	
-	<?php 
+  
+  <h1>My Calendar</h1>
+  
+  <?php 
   // set some test data
 
-	// dates circled could be dates which has have a special event attached to them (i.e. holidays, meetings, dates of working days, etc.)
+  // dates circled could be dates which has have a special event attached to them (i.e. holidays, meetings, dates of working days, etc.)
   $circled_dates = array('2020-11-08', '2020-11-09', '2020-11-17', '2020-12-01', '2020-12-11', '2020-12-12');
   
   // dates selected would be dates we want to process by clicking/unclicking them
   $selected_dates = array('2020-11-08', '2020-12-11');
   ?>
-	
+  
   <!-- print the first selected dates -->
-	<h4 class="mt-5">Demo Selected Dates:</h4>
-	<ul id="selectedDates" class="mb-5">
-  	<?php 
-  	foreach($selected_dates as $dt){
-  	  echo '<li id="seldate-' . $dt . '">' . $dt . '</li>';
-  	}
-  	?>
-	</ul>
-	
+  <h4 class="mt-5">Demo Selected Dates:</h4>
+  <ul id="selectedDates" class="mb-5">
+    <?php 
+    foreach($selected_dates as $dt){
+      echo '<li id="seldate-' . $dt . '">' . $dt . '</li>';
+    }
+    ?>
+  </ul>
+  
   <!-- show the calendar -->
   <?=$mycal->show( ($_GET['m'] ?? null), ($_GET['y'] ?? null), $circled_dates, $selected_dates)?>
   
