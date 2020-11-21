@@ -30,3 +30,11 @@
 	<li>Expects to find a <i>loadCalendar(month,year)</i> Javascript function: use it to either reload the page passing along month and year to querystring, load the calendar using an Ajax call... As you wish!
 	<li>Expects to find a <i>setSelectedDate(date)</i> Javascript function: this is where you'll toggle date cell ON/OFF and where you process the clicked date!
 </ul>
+
+**Demos:**
+
+<p>The calendar is loaded from getting month and year in the URL querystring:</p>
+<img src="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/demo1-querystring.png"/>
+
+<p>The calendar is loaded from an Ajax call that passes along the desired month and year:</p>
+<img src="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/demo2-ajax.png"/>
