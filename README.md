@@ -31,6 +31,29 @@
 	<li>Expects to find a <i>setSelectedDate(date)</i> Javascript function: this is where you'll toggle date cell ON/OFF and where you process the clicked date!
 </ul>
 
+**Methods**
+<ul>
+	<li>Object's constructor : 
+		<ul>
+			<li>\CorbeauPerdu\i18n\Locale $locale CorbeauPerdu's locale instance for translations</li>
+			<li>bool $startWeekOnMonday Whether to start weeks on Mondays (default: start on sunday)</li>
+			<li>bool $showOtherMonths Whether to display dates in other months at the start or end of the current month (default: true)</li>
+			<li>bool $forceSixRows Whether to show a 6th row in the calendar, EVEN if that hole row belongs to the next month (default: false)</li>
+			<li>string $anchor calendar href anchor to reposition page upon calendar reload (default: 'calendar')</li>
+			<li>string $legendDateCircled Legend text for circled dates: pass along the text to load from the locale 'calendar' domain</li>
+			<li>string $legendDateSelected Legend text for Selected dates: pass along the text to load from the locale 'calendar' domain</li>
+		</ul>
+	</li>
+	<li>$calendar->show()
+		<ul>
+			<li>string $month for which month?</li>
+			<li>string $year for which year?</li>
+			<li>array $circledDates dates that are to be circled, in 'YYYY-mm-dd' string format</li>
+			<li>array $selectedDates dates that are flagged as selected, in to be in 'YYYY-mm-dd' string format</li>
+		</ul>		
+	</li>
+</ul>
+
 **Demos:**
 
 <p>The calendar is loaded from getting month and year in the URL querystring:</p>
