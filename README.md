@@ -1,7 +1,7 @@
 # CorbeauPerdu\Calendar\Calendar Class
 <p>A PHP Simple multi-date picker calendar.</p>
 
-<p><a href="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/CalendarUsageExample.php">**See: CalendarUsageExample.php**</a></p>
+<a href="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/CalendarUsageExample.php">**See: CalendarUsageExample.php**</a>
 
 <p>The reason for yet another PHP Calendar is to provide a simple calendar with just enough features, but without an overhead of too many of them:</p>
 
@@ -17,14 +17,14 @@
 
  *\* Dates must be in 'YYYY-mm-dd' string format.*
 
-<p>**Requirements**</p>
+**Requirements**
 <ul>
 	<li><a href="https://getbootstrap.com/">Boostrap</a></li>
 	<li><a href="https://jquery.com/">jQuery</a>: only if you use the javascripts from the <a href="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/CalendarUsageExample.php">CalendarUsageExample.php</a></li>
 	<li><a href="https://github.com/ravenlost/PHP_Locale">\CorbeauPerdu\i18n\Locale</a></li>
 </ul>
 
-<p>**Other important requirements and informations**</p>
+**Other important requirements and informations**
 <ul>
 	<li>All dates are returned and processed in 'YYYY-mm-dd' format!</li>
 	<li>Expects to find a <i>loadCalendar(month,year)</i> Javascript function: use it to either reload the page passing along month and year to querystring, load the calendar using an Ajax call... As you wish!
