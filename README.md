@@ -3,7 +3,7 @@
 
 <p><a href="https://github.com/ravenlost/PHP_Calendar/blob/master/UsageExamples/CalendarUsageExample.php">**See: CalendarUsageExample.php**</a></p>
 
-<p>The reason for yet another PHP Calendar is to provide a simple calendar with just enough features, but without an overhead of too many them:</p>
+<p>The reason for yet another PHP Calendar is to provide a simple calendar with just enough features, but without an overhead of too many of them:</p>
 
 <ul>
 	<li>Start the week on Sundays or Mondays (default: Sunday)</li>
@@ -15,7 +15,7 @@
 	<li>Finally, because it uses Bootsrap, it is responsive!</li>
 </ul>
 
- ***\* Dates must be in 'YYYY-mm-dd' string format***
+ *\* Dates must be in 'YYYY-mm-dd' string format*
 
 **Requirements**
 <ul>
