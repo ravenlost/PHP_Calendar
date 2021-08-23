@@ -28,7 +28,7 @@
 <ul>
 	<li>All dates are returned and processed in 'YYYY-mm-dd' format!</li>
 	<li>Expects to find a <i>loadCalendar(month,year)</i> Javascript function: use it to either reload the page passing along month and year to querystring, load the calendar using an Ajax call... As you wish!
-	<li>Expects to find a <i>setSelectedDate(date)</i> Javascript function: this is where you'll toggle date cell ON/OFF (by toggling class __calendar_selected__ on the cell IDs) and where you process the clicked date!
+	<li>Expects to find a <i>setSelectedDate(date)</i> Javascript function: this is where you'll toggle date cell ON/OFF (by toggling class _calendar_selected_ on the cell IDs) and where you process the clicked date!
 </ul>
 
 **Methods**
